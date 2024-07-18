@@ -7,6 +7,6 @@ export async function saveUser(userDetail){
         return null;
     }
 
-    const user =await createUser(userDetail);
+    const user = await createUser(userDetail);
     return user ? user: null;
 }
